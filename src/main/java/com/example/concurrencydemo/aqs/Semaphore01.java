@@ -2,7 +2,6 @@ package com.example.concurrencydemo.aqs;
 
 import lombok.extern.slf4j.Slf4j;
 
-import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Semaphore;
@@ -13,6 +12,8 @@ import java.util.concurrent.Semaphore;
  * Description: Semaphore信号量
  * 初始化一个值：线程的最大容量
  * 获取与释放1个许可
+ *
+ * 使用：限制一段逻辑的最大线程数量
  * <p>
  *
  * @author zhangjianwei
